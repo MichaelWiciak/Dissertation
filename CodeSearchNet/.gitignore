@@ -1,0 +1,4 @@
+# Ignore all of *.jsonl since the jsonl dataset is too large for GitHub
+*.jsonl
+
+# both js and python are here

@@ -1,0 +1,7 @@
+[
+  { "correct_predictions": "11962", "total": "13774", "name": "CodeBERT" },
+  { "correct_predictions": "11135", "total": "13774", "name": "RoBERTa" },
+  { "correct_predictions": "11309", "total": "13774", "name": "C" },
+  { "correct_predictions": "11411", "total": "13774", "name": "CC" },
+  { "correct_predictions": "11486", "total": "13774", "name": "CCA" }
+]

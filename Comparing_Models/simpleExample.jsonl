@@ -1,0 +1,1 @@
+{"code_tokens": ["def", "func", "(", "self", ")", ":", "if", "self", ".", "_func", "is", "None", ":", "self", ".", "_func", "=", "NNTreeNodeFunc", "(", "self", ")", "<mask>", "self", ".", "_func"], "output": ["return"]}

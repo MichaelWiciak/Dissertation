@@ -1,0 +1,672 @@
+{"code_string": "    for ( uint8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t <mask> = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "j"}
+{"code_string": "    for ( u<mask>nt8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "i"}
+{"code_string": "    for ( uint8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t <mask> = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "j"}
+{"code_string": "    for ( u<mask>nt8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "i"}
+{"code_string": "    for <mask> uint8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "("}
+{"code_string": "    for ( uint8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( <mask> , i , j , i * j );\n         return 0;", "output": "\"%ux%u=%u\\n\""}
+{"code_string": "    for ( uint8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         <mask> 0;", "output": "return"}
+{"code_string": "    for <mask> uint8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "("}
+{"code_string": "    for ( u<mask>nt8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "i"}
+{"code_string": "    for ( u<mask>nt8_t i = 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "i"}
+{"code_string": "    for ( uint8_t i <mask> 1 ; i < 10 ; i++ )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "="}
+{"code_string": "    for ( uint8_t i = 1 ; i < 10 ; <mask> )\n              for ( uint8_t j = 1 ; j < 10 ; j++ )\n                   printf ( \"%ux%u=%u\\n\" , i , j , i * j );\n         return 0;", "output": "i++"}
+{"code_string": "    QQ () <mask>\n        return 0 ;", "output": ";"}
+{"code_string": "    QQ () ;\n        return <mask> ;", "output": "0"}
+{"code_string": "    QQ () <mask>\n        return 0 ;", "output": ";"}
+{"code_string": "    QQ () <mask>\n        return 0 ;", "output": ";"}
+{"code_string": "    QQ () ;\n        <mask> 0 ;", "output": "return"}
+{"code_string": "    QQ () ;\n        <mask> 0 ;", "output": "return"}
+{"code_string": "    QQ () ;\n        <mask> 0 ;", "output": "return"}
+{"code_string": "    QQ () <mask>\n        return 0 ;", "output": ";"}
+{"code_string": "    QQ () <mask>\n        return 0 ;", "output": ";"}
+{"code_string": "    QQ <mask> ;\n        return 0 ;", "output": "()"}
+{"code_string": "    QQ () <mask>\n        return 0 ;", "output": ";"}
+{"code_string": "    <mask> () ;\n        return 0 ;", "output": "QQ"}
+{"code_string": "    while (( s += ( e = e % 9 + 1 ) < 2 ) < 10 ) std::cout <mask> s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "<<"}
+{"code_string": "    while (( s += ( e = e % 9 + 1 <mask> < 2 ) < 10 ) std::cout << s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": ")"}
+{"code_string": "    while (( s += ( e = e % 9 + 1 ) < 2 ) < 10 ) std::cout << s << 'x' << e << <mask> << s * e << '\\n' ; 0 ;", "output": "'='"}
+{"code_string": "    while (( s += ( e = e % 9 + 1 ) < <mask> ) < 10 ) std::cout << s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "2"}
+{"code_string": "    whil<mask> (( s += ( e = e % 9 + 1 ) < 2 ) < 10 ) std::cout << s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "e"}
+{"code_string": "    while (( s += ( e = e % 9 + 1 ) < 2 ) < 10 ) std::cout <mask> s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "<<"}
+{"code_string": "    whil<mask> (( s += ( e = e % 9 + 1 ) < 2 ) < 10 ) std::cout << s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "e"}
+{"code_string": "    whil<mask> (( s += ( e = e % 9 + 1 ) < 2 ) < 10 ) std::cout << s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "e"}
+{"code_string": "    while (( s += ( e = e % 9 + 1 ) < 2 ) < 10 ) std::cout << s << <mask> << e << '=' << s * e << '\\n' ; 0 ;", "output": "'x'"}
+{"code_string": "    whil<mask> (( s += ( e = e % 9 + 1 ) < 2 ) < 10 ) std::cout << s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "e"}
+{"code_string": "    while (( s += ( e = e % 9 + <mask> ) < 2 ) < 10 ) std::cout << s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "1"}
+{"code_string": "    while (( s += ( e = e <mask> 9 + 1 ) < 2 ) < 10 ) std::cout << s << 'x' << e << '=' << s * e << '\\n' ; 0 ;", "output": "%"}
+{"code_string": "    int i , <mask> ; F ( i ) F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "j"}
+{"code_string": "    int i , j ; <mask> ( i ) F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "F"}
+{"code_string": "    int i , <mask> ; F ( i ) F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "j"}
+{"code_string": "    int i , j ; F ( i <mask> F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ")"}
+{"code_string": "    <mask>nt i , j ; F ( i ) F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "i"}
+{"code_string": "    <mask> i , j ; F ( i ) F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "int"}
+{"code_string": "    int i , j ; F ( i ) F ( j ) <mask> ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "printf"}
+{"code_string": "    int i , j ; F ( i <mask> F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ")"}
+{"code_string": "    int i <mask> j ; F ( i ) F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ","}
+{"code_string": "    int i , j ; F ( i ) F ( j ) <mask> ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "printf"}
+{"code_string": "    int i , j ; F ( i ) F ( j ) printf ( <mask> , i , j , i * j );", "output": "\"%dx%d=%d\\n\""}
+{"code_string": "    <mask> i , j ; F ( i ) F ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "int"}
+{"code_string": "    FOR ( i <mask> 1 , 10 ) FOR ( j , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ","}
+{"code_string": "    FOR ( i , 1 , 10 ) FOR ( j , 1 , 10 ) cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;", "output": "<<"}
+{"code_string": "    <mask> ( i , 1 , 10 ) FOR ( j , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "FOR"}
+{"code_string": "    FOR ( i , 1 , 10 ) FOR ( j , 1 , 10 ) cout << i << \"x\" << j << <mask> << i * j << endl ;", "output": "\"=\""}
+{"code_string": "    FOR ( i <mask> 1 , 10 ) FOR ( j , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ","}
+{"code_string": "    FOR ( i , 1 , 10 <mask> FOR ( j , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ")"}
+{"code_string": "    FOR ( i , <mask> , 10 ) FOR ( j , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "1"}
+{"code_string": "    FOR ( i , 1 , 10 ) FOR ( <mask> , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "j"}
+{"code_string": "    FOR ( i , 1 , 10 ) FOR ( j , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i <mask> j << endl ;", "output": "*"}
+{"code_string": "    FOR ( i <mask> 1 , 10 ) FOR ( j , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ","}
+{"code_string": "    FOR ( i , <mask> , 10 ) FOR ( j , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "1"}
+{"code_string": "    FOR ( i , 1 , 10 ) FOR ( <mask> , 1 , 10 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "j"}
+{"code_string": "    f ( i ) f ( j ) printf ( <mask> , i , j , i * j );", "output": "\"%dx%d=%d\\n\""}
+{"code_string": "    f ( i ) f ( <mask> ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "j"}
+{"code_string": "    f <mask> i ) f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "("}
+{"code_string": "    f ( i <mask> f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ")"}
+{"code_string": "    f ( i <mask> f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ")"}
+{"code_string": "    f ( <mask> ) f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "i"}
+{"code_string": "    f <mask> i ) f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "("}
+{"code_string": "    f ( i <mask> f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ")"}
+{"code_string": "    f ( i <mask> f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ")"}
+{"code_string": "    f <mask> i ) f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "("}
+{"code_string": "    f ( i <mask> f ( j ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ")"}
+{"code_string": "    f ( i ) f ( j ) printf ( <mask> , i , j , i * j );", "output": "\"%dx%d=%d\\n\""}
+{"code_string": "    f ( i , 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i <mask> j );\n        return 0;", "output": "*"}
+{"code_string": "    f ( <mask> , 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "i"}
+{"code_string": "    f ( <mask> , 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "i"}
+{"code_string": "    f ( i <mask> 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": ","}
+{"code_string": "    f ( <mask> , 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "i"}
+{"code_string": "    f ( i , 9 ) f ( j , 9 ) printf ( <mask> , i , j , i * j );\n        return 0;", "output": "\"%dx%d=%d\\n\""}
+{"code_string": "    f ( <mask> , 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "i"}
+{"code_string": "    f ( i <mask> 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": ","}
+{"code_string": "    f ( i , 9 <mask> f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": ")"}
+{"code_string": "    f ( <mask> , 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "i"}
+{"code_string": "    f ( i <mask> 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": ","}
+{"code_string": "    f ( i <mask> 9 ) f ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": ","}
+{"code_string": "    outerLoop ( 1 <mask>", "output": ");"}
+{"code_string": "    <mask> ( 1 );", "output": "outerLoop"}
+{"code_string": "    outerLoop ( 1 <mask>", "output": ");"}
+{"code_string": "    <mask> ( 1 );", "output": "outerLoop"}
+{"code_string": "    outerLoop <mask> 1 );", "output": "("}
+{"code_string": "    outerLoop ( <mask> );", "output": "1"}
+{"code_string": "    outerLoop ( 1 <mask>", "output": ");"}
+{"code_string": "    <mask> ( 1 );", "output": "outerLoop"}
+{"code_string": "    <mask> ( 1 );", "output": "outerLoop"}
+{"code_string": "    <mask> ( 1 );", "output": "outerLoop"}
+{"code_string": "    outerLoop ( 1 <mask>", "output": ");"}
+{"code_string": "    outerLoop ( <mask> );", "output": "1"}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ <mask> cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": ")"}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ ) <mask> << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": "cout"}
+{"code_string": "    for <mask> int i = 0 ; i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": "("}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ <mask> cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": ")"}
+{"code_string": "    for ( int i = <mask> ; i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": "0"}
+{"code_string": "    for ( int i = 0 <mask> i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": ";"}
+{"code_string": "    for ( int i = 0 <mask> i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": ";"}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << <mask> ;", "output": "endl"}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": "i"}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": "i"}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": "i"}
+{"code_string": "    for ( int i <mask> 0 ; i < 81 ; i++ ) cout << i / 9 + 1 << 'x' << i % 9 + 1 << '=' << ( i / 9 + 1 ) * ( i % 9 + 1 ) << endl ;", "output": "="}
+{"code_string": "    <mask> ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "for"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n            for ( int <mask> = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "j"}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "10"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ <mask>\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": ")"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n            for ( int <mask> = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "j"}
+{"code_string": "    for ( <mask>nt i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "i"}
+{"code_string": "    <mask> ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "for"}
+{"code_string": "    for ( int i = 1 ; i <mask> 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "<"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" <mask> i , j , i * j );\n        return 0;", "output": ","}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "10"}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "10"}
+{"code_string": "    for <mask> int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n              printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n        return 0;", "output": "("}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    <mask> ();", "output": "print_qq"}
+{"code_string": "    <mask> ();", "output": "print_qq"}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    print_qq <mask>", "output": "();"}
+{"code_string": "    <mask> ();", "output": "print_qq"}
+{"code_string": "    int i , n <mask>\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": ";"}
+{"code_string": "    <mask>nt i , n ;\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "i"}
+{"code_string": "    int i , n ;\n    for <mask> i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "("}
+{"code_string": "    int i , n ;\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; <mask> ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "++n"}
+{"code_string": "    i<mask>t i , n ;\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "n"}
+{"code_string": "    int i , n ;\n    for ( i <mask> 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "="}
+{"code_string": "    <mask>nt i , n ;\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "i"}
+{"code_string": "    i<mask>t i , n ;\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "n"}
+{"code_string": "    int i , n <mask>\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": ";"}
+{"code_string": "    <mask>nt i , n ;\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "i"}
+{"code_string": "    <mask>nt i , n ;\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( \"%dx%d=%d\\n\" , i , n , i * n );", "output": "i"}
+{"code_string": "    int i , n ;\n    for ( i = 1 ; i < 10 ; ++i ) for ( n = 1 ; n < 10 ; ++n ) printf ( <mask> , i , n , i * n );", "output": "\"%dx%d=%d\\n\""}
+{"code_string": "    loop <mask> i , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "("}
+{"code_string": "    loop ( i , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl <mask>", "output": ";"}
+{"code_string": "    loop ( i , 1 , <mask> )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "10"}
+{"code_string": "    loop ( i , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << <mask> << j << \"=\" << i * j << endl ;", "output": "\"x\""}
+{"code_string": "    loop ( i , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i <mask> j << endl ;", "output": "*"}
+{"code_string": "    loop ( <mask> , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    loop ( i , 1 , 10 <mask>\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ")"}
+{"code_string": "    loop ( i , 1 , 10 )\n    \t\tloop ( <mask> , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "j"}
+{"code_string": "    loop ( <mask> , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    loop ( <mask> , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    loop ( <mask> , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    loop ( <mask> , 1 , 10 )\n    \t\tloop ( j , 1 , 10 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    cin <mask> tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "."}
+{"code_string": "    cin . tie <mask> 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "("}
+{"code_string": "    cin . tie ( 0 <mask>\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": ");"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( <mask> i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "int"}
+{"code_string": "    cin . tie <mask> 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "("}
+{"code_string": "    cin . tie <mask> 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "("}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = <mask> ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "1"}
+{"code_string": "    <mask> . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "cin"}
+{"code_string": "    cin . tie ( 0 );\n        ios <mask> sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "::"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << <mask> ;", "output": "\"\\n\""}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i < 10 ; <mask> )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "i++"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <mask> 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "<"}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ ) <mask> ( \"%dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": "printf"}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ ) printf ( \"%dx%d=%d\\n\" <mask> i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": ","}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ ) printf ( \"%dx%d=%d\\n\" <mask> i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": ","}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 81 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": "i"}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 81 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": "i"}
+{"code_string": "    for ( int i = 0 ; i < 8<mask> ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": "1"}
+{"code_string": "    for ( int i = <mask> ; i < 81 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": "0"}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ ) printf ( \"%dx%d=%d\\n\" <mask> i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": ","}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 <mask>", "output": "));"}
+{"code_string": "    for ( int i = 0 ; i < 81 ; i++ ) printf ( \"<mask>dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": "%"}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 81 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": "i"}
+{"code_string": "    for ( int i = 0 ; i < <mask> ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 + 1 , i % 9 + 1 , ( i / 9 + 1 ) * ( i % 9 + 1 ));", "output": "81"}
+{"code_string": "    solve ans ;\n        ans . qq ();\n        <mask> 0 ;", "output": "return"}
+{"code_string": "    solve ans ;\n        ans . <mask> ();\n        return 0 ;", "output": "qq"}
+{"code_string": "    solve ans <mask>\n        ans . qq ();\n        return 0 ;", "output": ";"}
+{"code_string": "    solve ans ;\n        ans <mask> qq ();\n        return 0 ;", "output": "."}
+{"code_string": "    solve ans ;\n        ans . qq <mask>\n        return 0 ;", "output": "();"}
+{"code_string": "    solve ans <mask>\n        ans . qq ();\n        return 0 ;", "output": ";"}
+{"code_string": "    solve ans <mask>\n        ans . qq ();\n        return 0 ;", "output": ";"}
+{"code_string": "    solve <mask> ;\n        ans . qq ();\n        return 0 ;", "output": "ans"}
+{"code_string": "    solve <mask> ;\n        ans . qq ();\n        return 0 ;", "output": "ans"}
+{"code_string": "    solve ans <mask>\n        ans . qq ();\n        return 0 ;", "output": ";"}
+{"code_string": "    solve ans ;\n        ans . qq ();\n        <mask> 0 ;", "output": "return"}
+{"code_string": "    solve ans ;\n        ans . <mask> ();\n        return 0 ;", "output": "qq"}
+{"code_string": "    solvey <mask> 1 );\n    \treturn 0 ;", "output": "("}
+{"code_string": "    solvey ( 1 <mask>\n    \treturn 0 ;", "output": ");"}
+{"code_string": "    solvey ( 1 );\n    \treturn <mask> ;", "output": "0"}
+{"code_string": "    solvey ( 1 );\n    \treturn <mask> ;", "output": "0"}
+{"code_string": "    solvey ( 1 <mask>\n    \treturn 0 ;", "output": ");"}
+{"code_string": "    solvey ( 1 );\n    \treturn <mask> ;", "output": "0"}
+{"code_string": "    <mask> ( 1 );\n    \treturn 0 ;", "output": "solvey"}
+{"code_string": "    <mask> ( 1 );\n    \treturn 0 ;", "output": "solvey"}
+{"code_string": "    solvey ( 1 );\n    \treturn <mask> ;", "output": "0"}
+{"code_string": "    solvey ( 1 <mask>\n    \treturn 0 ;", "output": ");"}
+{"code_string": "    solvey ( 1 );\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    solvey <mask> 1 );\n    \treturn 0 ;", "output": "("}
+{"code_string": "    // Start <mask>\n        run ();", "output": "QQ"}
+{"code_string": "    // <mask> QQ\n        run ();", "output": "Start"}
+{"code_string": "    <mask> Start QQ\n        run ();", "output": "//"}
+{"code_string": "    // <mask> QQ\n        run ();", "output": "Start"}
+{"code_string": "    // Start <mask>\n        run ();", "output": "QQ"}
+{"code_string": "    // Start QQ\n        run <mask>", "output": "();"}
+{"code_string": "    <mask> Start QQ\n        run ();", "output": "//"}
+{"code_string": "    <mask> Start QQ\n        run ();", "output": "//"}
+{"code_string": "    <mask> Start QQ\n        run ();", "output": "//"}
+{"code_string": "    // Start QQ\n        <mask> ();", "output": "run"}
+{"code_string": "    // Start QQ\n        <mask> ();", "output": "run"}
+{"code_string": "    <mask> Start QQ\n        run ();", "output": "//"}
+{"code_string": "    REP ( i , 9 )\n            REP ( j , 9 )\n                cout << i + <mask> << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "1"}
+{"code_string": "    REP ( i , 9 )\n            REP ( j , 9 )\n                cout << i + <mask> << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "1"}
+{"code_string": "    REP ( i , 9 )\n            REP ( j , 9 )\n                cout << i + <mask> << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "1"}
+{"code_string": "    REP <mask> i , 9 )\n            REP ( j , 9 )\n                cout << i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "("}
+{"code_string": "    REP ( i , 9 )\n            REP ( j , 9 )\n                cout <mask> i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "<<"}
+{"code_string": "    REP ( i , 9 <mask>\n            REP ( j , 9 )\n                cout << i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": ")"}
+{"code_string": "    REP ( i , 9 )\n            REP ( j , 9 )\n                cout <mask> i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "<<"}
+{"code_string": "    REP ( i , 9 )\n            REP ( j , 9 )\n                cout <mask> i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "<<"}
+{"code_string": "    REP ( i , 9 )\n            REP ( j , 9 )\n                cout <mask> i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "<<"}
+{"code_string": "    REP <mask> i , 9 )\n            REP ( j , 9 )\n                cout << i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "("}
+{"code_string": "    REP ( <mask> , 9 )\n            REP ( j , 9 )\n                cout << i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "i"}
+{"code_string": "    REP ( <mask> , 9 )\n            REP ( j , 9 )\n                cout << i + 1 << 'x' << j + 1 << '=' << ( i + 1 ) * ( j + 1 ) << '\\n' ;", "output": "i"}
+{"code_string": "    for ( <mask>nt i = 1 ; i <= 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "i"}
+{"code_string": "    for ( int i = 1 ; i <= <mask> ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "9"}
+{"code_string": "    for ( <mask> i = 1 ; i <= 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "int"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n        for ( int <mask> = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "k"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout <mask> i << \"x\" << k << \"=\" << i * k << endl ;", "output": "<<"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": ";"}
+{"code_string": "    for ( <mask> i = 1 ; i <= 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "int"}
+{"code_string": "    for ( int i = 1 ; i <= <mask> ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "9"}
+{"code_string": "    for ( <mask>nt i = 1 ; i <= 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "i"}
+{"code_string": "    for ( int i = 1 ; i <mask> 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "<="}
+{"code_string": "    <mask> ( int i = 1 ; i <= 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "for"}
+{"code_string": "    <mask> ( int i = 1 ; i <= 9 ; i++ )\n        for ( int k = 1 ; k <= 9 ; k++ ) cout << i << \"x\" << k << \"=\" << i * k << endl ;", "output": "for"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i <mask> j << std :: endl ;\n      return 0 ;", "output": "*"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": ";"}
+{"code_string": "    <mask> ( int i = 1 ; i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": "for"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; ++i )\n        for ( int <mask> = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": "j"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << <mask> << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": "\"x\""}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; <mask> )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": "++i"}
+{"code_string": "    for ( <mask> i = 1 ; i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": "int"}
+{"code_string": "    <mask> ( int i = 1 ; i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": "for"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": ";"}
+{"code_string": "    for ( int i <mask> 1 ; i <= 9 ; ++i )\n        for ( int j = 1 ; j <= 9 ; ++j )\n          std :: cout << i << \"x\" << j << \"=\" << i * j << std :: endl ;\n      return 0 ;", "output": "="}
+{"code_string": "    for ( int i = <mask> ; i < 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "1"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": ";"}
+{"code_string": "    for ( int i = <mask> ; i < 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "1"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; ++i )\n            for ( int <mask> = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "j"}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "10"}
+{"code_string": "    for ( int i <mask> 1 ; i < 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "="}
+{"code_string": "    for ( int i <mask> 1 ; i < 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "="}
+{"code_string": "    for ( int i = 1 ; i < 10 ; ++i <mask>\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": ")"}
+{"code_string": "    for ( int i = 1 ; i <mask> 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "<"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": ";"}
+{"code_string": "    for ( <mask> i = 1 ; i < 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "int"}
+{"code_string": "    for ( int i = 1 ; i <mask> 10 ; ++i )\n            for ( int j = 1 ; j < 10 ; ++j )\n                cout << i << 'x' << j << '=' << i * j << endl ;", "output": "<"}
+{"code_string": "    erep ( i , 1 , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      <mask> 0 ;", "output": "return"}
+{"code_string": "    erep ( <mask> , 1 , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": "i"}
+{"code_string": "    erep ( i <mask> 1 , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": ","}
+{"code_string": "    erep ( i , 1 , 9 ) erep ( j , 1 , 9 ) cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": "<<"}
+{"code_string": "    erep ( i , <mask> , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": "1"}
+{"code_string": "    erep <mask> i , 1 , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": "("}
+{"code_string": "    erep ( i , 1 , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return <mask> ;", "output": "0"}
+{"code_string": "    erep ( <mask> , 1 , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": "i"}
+{"code_string": "    erep ( i , 1 , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << <mask> << i * j << endl ;\n\n      return 0 ;", "output": "\"=\""}
+{"code_string": "    erep ( i , 1 , <mask> ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": "9"}
+{"code_string": "    erep ( i , 1 , 9 ) erep ( j , 1 , 9 ) cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": "<<"}
+{"code_string": "    erep ( i <mask> 1 , 9 ) erep ( j , 1 , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n      return 0 ;", "output": ","}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" <mask> a , b , a * b );\n      return 0 ;", "output": ","}
+{"code_string": "    for ( a <mask> 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "="}
+{"code_string": "    <mask> ( a = 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "for"}
+{"code_string": "    for <mask> a = 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "("}
+{"code_string": "    for ( a <mask> 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "="}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b <mask>\n      return 0 ;", "output": ");"}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ )\n        for ( <mask> = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "b"}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ )\n        for ( <mask> = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "b"}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b <mask>\n      return 0 ;", "output": ");"}
+{"code_string": "    for <mask> a = 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "("}
+{"code_string": "    for ( a = 1 ; a <= <mask> ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "9"}
+{"code_string": "    for ( a <mask> 1 ; a <= 9 ; a++ )\n        for ( b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "="}
+{"code_string": "    for ( int a = 1 <mask> a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": ";"}
+{"code_string": "    for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int <mask> = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "b"}
+{"code_string": "    for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a <mask> b );\n      return 0 ;", "output": "*"}
+{"code_string": "    for ( int <mask> = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "a"}
+{"code_string": "    for ( int a = 1 ; a <mask> 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "<="}
+{"code_string": "    for ( int a = 1 <mask> a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": ";"}
+{"code_string": "    for ( int a = 1 ; a <= 9 ; <mask> )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "a++"}
+{"code_string": "    for ( int <mask> = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "a"}
+{"code_string": "    for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int <mask> = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "b"}
+{"code_string": "    for ( int a = 1 ; a <= <mask> ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "9"}
+{"code_string": "    for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a <mask> b );\n      return 0 ;", "output": "*"}
+{"code_string": "    for ( int <mask> = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "a"}
+{"code_string": "    for ( int s = 1 ; s < 10 ; s++ ) for ( int <mask> = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "e"}
+{"code_string": "    for ( int s = 1 <mask> s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": ";"}
+{"code_string": "    for ( int s <mask> 1 ; s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "="}
+{"code_string": "    for ( int s <mask> 1 ; s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "="}
+{"code_string": "    for ( int s = 1 <mask> s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": ";"}
+{"code_string": "    for ( int <mask> = 1 ; s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "s"}
+{"code_string": "    for <mask> int s = 1 ; s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "("}
+{"code_string": "    <mask> ( int s = 1 ; s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "for"}
+{"code_string": "    for <mask> int s = 1 ; s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "("}
+{"code_string": "    for <mask> int s = 1 ; s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "("}
+{"code_string": "    for ( int <mask> = 1 ; s < 10 ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "s"}
+{"code_string": "    for ( int s = 1 ; s < <mask> ; s++ ) for ( int e = 1 ; e < 10 ; e++ ) std :: cout << s << 'x' << e << '=' << ( s * e ) << std :: endl ; return 0 ;", "output": "10"}
+{"code_string": "    cin . <mask> ( 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": "tie"}
+{"code_string": "    cin . tie ( 0 <mask>\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": ");"}
+{"code_string": "    cin . tie <mask> 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": "("}
+{"code_string": "    cin . tie ( 0 <mask>\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": ");"}
+{"code_string": "    cin . tie ( 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \t<mask> ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": "system"}
+{"code_string": "    cin . tie <mask> 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": "("}
+{"code_string": "    cin . tie ( 0 )<mask>\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    cin <mask> tie ( 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": "."}
+{"code_string": "    cin <mask> tie ( 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": "."}
+{"code_string": "    cin . tie ( 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \t<mask> ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": "system"}
+{"code_string": "    cin <mask> tie ( 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( \"PAUSE\" );\n    #endif\n    \treturn 0 ;", "output": "."}
+{"code_string": "    cin . tie ( 0 );\n    \tios :: sync_with_stdio ( false );\n\n\n    \tsolve ();\n    #ifdef _WIN32\n    \tsystem ( <mask> );\n    #endif\n    \treturn 0 ;", "output": "\"PAUSE\""}
+{"code_string": "    for ( int i = 1 ; i <mask> 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "<="}
+{"code_string": "    for ( int i <mask> 1 ; i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "="}
+{"code_string": "    for ( <mask> i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "int"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << <mask> ;", "output": "endl"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ";"}
+{"code_string": "    <mask> ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "for"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ";"}
+{"code_string": "    for ( <mask>nt i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    for ( <mask>nt i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout <mask> i << \"x\" << j << \"=\" << i * j << endl ;", "output": "<<"}
+{"code_string": "    for ( int i = 1 ; i <= <mask> ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "9"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; i++ )\n    \t\tfor ( int j = 1 ; j <= 9 ; j++ )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ";"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        <mask> ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "for"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                <mask> << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "cout"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                <mask> << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "cout"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout <mask> i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "<<"}
+{"code_string": "    cin . tie ( 0 <mask>\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": ");"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout << i << \"x\" << j << <mask> << i * j << \"\\n\" ;", "output": "\"=\""}
+{"code_string": "    cin . tie ( 0 );\n        ios :: <mask> ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "sync_with_stdio"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout <mask> i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "<<"}
+{"code_string": "    cin . tie ( 0 <mask>\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": ");"}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i <mask> 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "="}
+{"code_string": "    cin . tie <mask> 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << \"\\n\" ;", "output": "("}
+{"code_string": "    cin . tie ( 0 );\n        ios :: sync_with_stdio ( false );\n        for ( int i = 1 ; i <= 9 ; i++ )\n            for ( int j = 1 ; j <= 9 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i <mask> j << \"\\n\" ;", "output": "*"}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": "10"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << <mask> << j << '=' << i * j << endl ;\n      return 0 ;", "output": "'x'"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout <mask> i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": "<<"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout <mask> i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": "<<"}
+{"code_string": "    for ( int i = <mask> ; i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": "1"}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": "10"}
+{"code_string": "    for ( int i = <mask> ; i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": "1"}
+{"code_string": "    for ( <mask>nt i = 1 ; i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": "i"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n       for ( int j = 1 ; j < 10 ; j++ )\n         cout << i << 'x' << j << '=' << i * j << endl ;\n      return 0 ;", "output": ";"}
+{"code_string": "    rep1 ( <mask> , 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "i"}
+{"code_string": "    rep1 ( i <mask> 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ","}
+{"code_string": "    rep1 ( <mask> , 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "i"}
+{"code_string": "    rep1 ( <mask> , 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "i"}
+{"code_string": "    rep1 ( <mask> , 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "i"}
+{"code_string": "    rep1 ( i , 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i <mask> j );", "output": "*"}
+{"code_string": "    rep1 <mask> i , 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "("}
+{"code_string": "    rep1 ( i <mask> 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": ","}
+{"code_string": "    rep1 <mask> i , 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "("}
+{"code_string": "    rep1 ( i , 9 ) rep1 ( <mask> , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "j"}
+{"code_string": "    rep1 ( i , <mask> ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "9"}
+{"code_string": "    rep1 <mask> i , 9 ) rep1 ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );", "output": "("}
+{"code_string": "    hoge <mask>\n\t\n    \treturn 0 ;", "output": "();"}
+{"code_string": "    hoge ();\n\t\n    \treturn <mask> ;", "output": "0"}
+{"code_string": "    hoge <mask>\n\t\n    \treturn 0 ;", "output": "();"}
+{"code_string": "    hoge ();\n\t\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    hoge ()<mask>\n\t\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    hoge ()<mask>\n\t\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    hoge ();\n\t\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    hoge ();\n\t\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    hoge ()<mask>\n\t\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    hoge ();\n\t\n    \treturn <mask> ;", "output": "0"}
+{"code_string": "    hoge ()<mask>\n\t\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    <mask> ();\n\t\n    \treturn 0 ;", "output": "hoge"}
+{"code_string": "    loop ( x <mask> loop ( y ) printf ( \"%dx%d=%d\\n\" , x , y , x * y );", "output": ")"}
+{"code_string": "    loop ( x ) loop ( <mask> ) printf ( \"%dx%d=%d\\n\" , x , y , x * y );", "output": "y"}
+{"code_string": "    loop ( <mask> ) loop ( y ) printf ( \"%dx%d=%d\\n\" , x , y , x * y );", "output": "x"}
+{"code_string": "    loop ( x ) loop ( y ) printf ( \"%dx%d=%d\\n\" , x , y , x * y <mask>", "output": ");"}
+{"code_string": "    <mask> ( x ) loop ( y ) printf ( \"%dx%d=%d\\n\" , x , y , x * y );", "output": "loop"}
+{"code_string": "    loop ( x ) loop ( <mask> ) printf ( \"%dx%d=%d\\n\" , x , y , x * y );", "output": "y"}
+{"code_string": "    loop ( x ) loop ( y ) printf ( \"%dx%d=%d\\n\" <mask> x , y , x * y );", "output": ","}
+{"code_string": "    loop ( x <mask> loop ( y ) printf ( \"%dx%d=%d\\n\" , x , y , x * y );", "output": ")"}
+{"code_string": "    loop <mask> x ) loop ( y ) printf ( \"%dx%d=%d\\n\" , x , y , x * y );", "output": "("}
+{"code_string": "    loop ( x ) loop ( y ) printf ( <mask> , x , y , x * y );", "output": "\"%dx%d=%d\\n\""}
+{"code_string": "    loop ( x ) loop ( y ) printf ( \"%dx%d=%d\\n\" , x , y , x * y <mask>", "output": ");"}
+{"code_string": "    loop ( x ) loop ( y ) printf ( \"%dx%d=%d\\n\" <mask> x , y , x * y );", "output": ","}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;", "output": "<<"}
+{"code_string": "    REP ( <mask> , 9 ) REP ( j , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    REP <mask> i , 9 ) REP ( j , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "("}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;", "output": "<<"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ")"}
+{"code_string": "    REP <mask> i , 9 ) REP ( j , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "("}
+{"code_string": "    REP ( i <mask> 9 ) REP ( j , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ","}
+{"code_string": "    REP ( i , <mask> ) REP ( j , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "9"}
+{"code_string": "    REP ( i , 9 ) REP ( <mask> , 9 ) cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "j"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;", "output": "<<"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i << \"x\" << j << <mask> << i * j << endl ;", "output": "\"=\""}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;", "output": "<<"}
+{"code_string": "    for ( <mask>nt i = 1 ; i < 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ";"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n        for ( int <mask> = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "j"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": ";"}
+{"code_string": "    for ( <mask>nt i = 1 ; i < 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "i"}
+{"code_string": "    for ( <mask> i = 1 ; i < 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "int"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          <mask> << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "cout"}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "10"}
+{"code_string": "    for ( <mask> i = 1 ; i < 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "int"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          <mask> << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "cout"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n        for ( int <mask> = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "j"}
+{"code_string": "    for ( int i = 1 ; i <mask> 10 ; i++ )\n        for ( int j = 1 ; j < 10 ; j++ )\n          cout << i << \"x\" << j << \"=\" << i * j << endl ;", "output": "<"}
+{"code_string": "    rrep ( <mask> , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    <mask> ( i , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "rrep"}
+{"code_string": "    rrep ( <mask> , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    rrep ( i , <mask> ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "9"}
+{"code_string": "    rrep ( <mask> , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    <mask> ( i , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "rrep"}
+{"code_string": "    <mask> ( i , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "rrep"}
+{"code_string": "    rrep ( <mask> , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    rrep ( <mask> , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    rrep ( i , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i <mask> j );\n    \treturn 0 ;", "output": "*"}
+{"code_string": "    rrep ( i , 9 <mask> rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": ")"}
+{"code_string": "    <mask> ( i , 9 ) rrep ( j , 9 ) printf ( \"%dx%d=%d\\n\" , i , j , i * j );\n    \treturn 0 ;", "output": "rrep"}
+{"code_string": "    int a [ 128 ];\n      int cnt = 0 ;\n      int <mask> = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "max_depth"}
+{"code_string": "    int <mask> [ 128 ];\n      int cnt = 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "a"}
+{"code_string": "    int <mask> [ 128 ];\n      int cnt = 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "a"}
+{"code_string": "    int a [ 128 ]<mask>\n      int cnt = 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": ";"}
+{"code_string": "    int a [ 128 ];\n      int cnt <mask> 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "="}
+{"code_string": "    int a [ 128 ];\n      int cnt = 0 ;\n      int max_depth = 25 ;\n      rec <mask> 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "("}
+{"code_string": "    int a [ 128 ];\n      int cnt = 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt <mask>;\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": ")"}
+{"code_string": "    int a [ 128 ];\n      int cnt = 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= <mask> ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "9"}
+{"code_string": "    int a [ 128 ]<mask>\n      int cnt = 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": ";"}
+{"code_string": "    int a [ 128 ];\n      int cnt <mask> 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "="}
+{"code_string": "    int a [ 128 ]<mask>\n      int cnt = 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": ";"}
+{"code_string": "    int a [ 128 ];\n      int cnt <mask> 0 ;\n      int max_depth = 25 ;\n      rec ( 0 , max_depth , a , cnt );\n  \n      for ( int a = 1 ; a <= 9 ; a++ )\n        for ( int b = 1 ; b <= 9 ; b++ )\n          printf ( \"%dx%d=%d\\n\" , a , b , a * b );\n      return 0 ;", "output": "="}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b <mask> return 0 ;", "output": ");"}
+{"code_string": "    for ( a = <mask> ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "1"}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ ) for ( <mask> = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "b"}
+{"code_string": "    for ( <mask> = 1 ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "a"}
+{"code_string": "    for ( a <mask> 1 ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "="}
+{"code_string": "    for ( a = <mask> ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "1"}
+{"code_string": "    for ( a = 1 ; a <= <mask> ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "9"}
+{"code_string": "    for ( <mask> = 1 ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "a"}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) <mask> ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "printf"}
+{"code_string": "    for ( <mask> = 1 ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "a"}
+{"code_string": "    for ( a = 1 ; a <= 9 ; a++ <mask> for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": ")"}
+{"code_string": "    for ( <mask> = 1 ; a <= 9 ; a++ ) for ( b = 1 ; b <= 9 ; b++ ) printf ( \"%dx%d=%d\\n\" , a , b , a * b ); return 0 ;", "output": "a"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": ")"}
+{"code_string": "    REP ( i <mask> 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": ","}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) <mask> << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": "cout"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": ")"}
+{"code_string": "    REP ( i , 9 ) REP ( <mask> , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": "j"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": ")"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": ")"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve <mask>", "output": "();"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout <mask> i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": "<<"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        <mask> ();", "output": "solve"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) <mask> ( j + 1 ) << endl ;\n        solve ();", "output": "*"}
+{"code_string": "    REP <mask> i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        solve ();", "output": "("}
+{"code_string": "    rep ( i , <mask> , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": "1"}
+{"code_string": "    rep <mask> i , 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": "("}
+{"code_string": "    rep ( i , 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    rep ( i , <mask> , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": "1"}
+{"code_string": "    rep ( <mask> , 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    rep ( i , 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \t<mask> << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": "cout"}
+{"code_string": "    rep <mask> i , 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": "("}
+{"code_string": "    rep ( i <mask> 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": ","}
+{"code_string": "    rep ( i , 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << <mask> << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": "'x'"}
+{"code_string": "    rep ( i <mask> 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": ","}
+{"code_string": "    rep ( <mask> , 1 , 10 )\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    rep ( i , 1 , 10 <mask>\n    \trep ( j , 1 , 10 )\n    \tcout << i << 'x' << j << '=' << i * j << endl ;\n    \treturn 0 ;", "output": ")"}
+{"code_string": "    ios :: sync_with_stdio ( 0 );\n\n    \tfor ( <mask> i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": "int"}
+{"code_string": "    ios :: sync_with_stdio ( 0 );\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int <mask> = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": "j"}
+{"code_string": "    ios :: sync_with_stdio ( 0 );\n\n    \tfor ( int i = 1 ; i <mask> 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": "<="}
+{"code_string": "    ios :: sync_with_stdio ( 0 )<mask>\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    ios :: sync_with_stdio ( 0 );\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout <mask> i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": "<<"}
+{"code_string": "    ios :: sync_with_stdio ( 0 )<mask>\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    ios :: <mask> ( 0 );\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": "sync_with_stdio"}
+{"code_string": "    ios :: sync_with_stdio ( 0 <mask>;\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": ")"}
+{"code_string": "    ios :: sync_with_stdio ( 0 );\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout <mask> i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": "<<"}
+{"code_string": "    <mask>os :: sync_with_stdio ( 0 );\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    <mask>os :: sync_with_stdio ( 0 );\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    ios :: sync_with_stdio ( 0 )<mask>\n\n    \tfor ( int i = 1 ; i <= 9 ; ++i )\n    \t\tfor ( int j = 1 ; j <= 9 ; ++j )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    QQ ( 1 , 1 <mask>", "output": ");"}
+{"code_string": "    QQ ( 1 <mask> 1 );", "output": ","}
+{"code_string": "    <mask> ( 1 , 1 );", "output": "QQ"}
+{"code_string": "    QQ ( <mask> , 1 );", "output": "1"}
+{"code_string": "    <mask> ( 1 , 1 );", "output": "QQ"}
+{"code_string": "    QQ ( 1 , 1 <mask>", "output": ");"}
+{"code_string": "    <mask> ( 1 , 1 );", "output": "QQ"}
+{"code_string": "    QQ ( 1 <mask> 1 );", "output": ","}
+{"code_string": "    <mask> ( 1 , 1 );", "output": "QQ"}
+{"code_string": "    QQ <mask> 1 , 1 );", "output": "("}
+{"code_string": "    QQ ( <mask> , 1 );", "output": "1"}
+{"code_string": "    QQ ( <mask> , 1 );", "output": "1"}
+{"code_string": "    for ( int i = 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + <mask> , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "1"}
+{"code_string": "    for ( int i = 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" <mask> i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": ","}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "i"}
+{"code_string": "    for ( int i = 0 ; i < 9 ; i<mask>+ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "+"}
+{"code_string": "    for ( int i <mask> 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "="}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "i"}
+{"code_string": "    for ( int i = 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( <mask> , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "\"%dx%d=%d\\n\""}
+{"code_string": "    for ( <mask>nt i = 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "i"}
+{"code_string": "    for ( int i = 0 ; i < 9 ; i++ <mask>\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": ")"}
+{"code_string": "    for ( int i = 0 ; i < 9 ; i++ )\n            for ( int <mask> = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "j"}
+{"code_string": "    for ( int i = 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; <mask> )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "j++"}
+{"code_string": "    for <mask> int i = 0 ; i < 9 ; i++ )\n            for ( int j = 0 ; j < 9 ; j++ )\n                printf ( \"%dx%d=%d\\n\" , i + 1 , j + 1 , ( i + 1 ) * ( j + 1 ));", "output": "("}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i <mask> 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": "+"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << <mask> << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": "\"=\""}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": ")"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        <mask> 0 ;", "output": "return"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": ")"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": ")"}
+{"code_string": "    REP ( i , 9 ) REP ( <mask> , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": "j"}
+{"code_string": "    REP ( i , 9 ) REP ( <mask> , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": "j"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + <mask> << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": "1"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + <mask> << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": "1"}
+{"code_string": "    REP ( <mask> , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": "i"}
+{"code_string": "    REP <mask> i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n        return 0 ;", "output": "("}
+{"code_string": "    c_main main01 ;\n        main01 . f_input ();\n    \n        <mask> 0 ;", "output": "return"}
+{"code_string": "    c_main main01 ;\n        main01 <mask> f_input ();\n    \n        return 0 ;", "output": "."}
+{"code_string": "    c_main main01 ;\n        main01 <mask> f_input ();\n    \n        return 0 ;", "output": "."}
+{"code_string": "    c_main <mask> ;\n        main01 . f_input ();\n    \n        return 0 ;", "output": "main01"}
+{"code_string": "    c_main main01 <mask>\n        main01 . f_input ();\n    \n        return 0 ;", "output": ";"}
+{"code_string": "    c_main main01 ;\n        main01 <mask> f_input ();\n    \n        return 0 ;", "output": "."}
+{"code_string": "    c_main main01 ;\n        main01 <mask> f_input ();\n    \n        return 0 ;", "output": "."}
+{"code_string": "    c_main main<mask>1 ;\n        main01 . f_input ();\n    \n        return 0 ;", "output": "0"}
+{"code_string": "    c_main <mask> ;\n        main01 . f_input ();\n    \n        return 0 ;", "output": "main01"}
+{"code_string": "    c_main main01 ;\n        main01 . f_input <mask>\n    \n        return 0 ;", "output": "();"}
+{"code_string": "    c_main main01 <mask>\n        main01 . f_input ();\n    \n        return 0 ;", "output": ";"}
+{"code_string": "    c_main main01 ;\n        main01 . f_input <mask>\n    \n        return 0 ;", "output": "();"}
+{"code_string": "    for ( int i = 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" <mask> i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": ","}
+{"code_string": "    for <mask> int i = 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "("}
+{"code_string": "    for <mask> int i = 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "("}
+{"code_string": "    for ( int i = <mask> ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "9"}
+{"code_string": "    for ( int i <mask> 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "="}
+{"code_string": "    for ( int i = 9 ; i <mask> 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "<"}
+{"code_string": "    for ( int i = <mask> ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "9"}
+{"code_string": "    for ( int i = 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + <mask> , i / 9 * ( i % 9 + 1 ));", "output": "1"}
+{"code_string": "    for ( int i = 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i <mask> 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "/"}
+{"code_string": "    for ( <mask>nt i = 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "i"}
+{"code_string": "    for ( int i = 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 <mask> ( i % 9 + 1 ));", "output": "*"}
+{"code_string": "    for ( <mask>nt i = 9 ; i < 90 ; i++ ) printf ( \"%dx%d=%d\\n\" , i / 9 , i % 9 + 1 , i / 9 * ( i % 9 + 1 ));", "output": "i"}
+{"code_string": "    solve ();\n    \treturn ( <mask> );", "output": "0"}
+{"code_string": "    solve (<mask>\n    \treturn ( 0 );", "output": ");"}
+{"code_string": "    solve ();\n    \t<mask> ( 0 );", "output": "return"}
+{"code_string": "    solve ();\n    \t<mask> ( 0 );", "output": "return"}
+{"code_string": "    solve ();\n    \treturn ( <mask> );", "output": "0"}
+{"code_string": "    <mask> ();\n    \treturn ( 0 );", "output": "solve"}
+{"code_string": "    solve ();\n    \t<mask> ( 0 );", "output": "return"}
+{"code_string": "    solve ();\n    \treturn ( <mask> );", "output": "0"}
+{"code_string": "    solve <mask>);\n    \treturn ( 0 );", "output": "("}
+{"code_string": "    solve <mask>\n    \treturn ( 0 );", "output": "();"}
+{"code_string": "    solve ();\n    \treturn ( <mask> );", "output": "0"}
+{"code_string": "    solve <mask>\n    \treturn ( 0 );", "output": "();"}
+{"code_string": "    upto ( 1 , 9 , i ) upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl <mask>\n        return 0 poi", "output": "poi"}
+{"code_string": "    upto ( 1 , 9 , i ) upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl <mask>\n        return 0 poi", "output": "poi"}
+{"code_string": "    upto ( 1 <mask> 9 , i ) upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": ","}
+{"code_string": "    upto ( 1 , 9 , i <mask> upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": ")"}
+{"code_string": "    upto ( 1 , 9 , i ) upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i <mask> j << endl poi\n        return 0 poi", "output": "*"}
+{"code_string": "    upto ( 1 , 9 , <mask> ) upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": "i"}
+{"code_string": "    upto ( 1 , 9 , i ) upto ( 1 , 9 , j ) cout <mask> i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": "<<"}
+{"code_string": "    upto <mask> 1 , 9 , i ) upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": "("}
+{"code_string": "    upto ( 1 , 9 , <mask> ) upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": "i"}
+{"code_string": "    upto ( 1 , 9 , i <mask> upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": ")"}
+{"code_string": "    upto ( 1 , 9 , i ) upto ( 1 , 9 , <mask> ) cout << i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": "j"}
+{"code_string": "    upto ( 1 , 9 , <mask> ) upto ( 1 , 9 , j ) cout << i << 'x' << j << '=' << i * j << endl poi\n        return 0 poi", "output": "i"}
+{"code_string": "    solver <mask>", "output": "();"}
+{"code_string": "    <mask> ();", "output": "solver"}
+{"code_string": "    <mask> ();", "output": "solver"}
+{"code_string": "    solver <mask>", "output": "();"}
+{"code_string": "    <mask> ();", "output": "solver"}
+{"code_string": "    <mask> ();", "output": "solver"}
+{"code_string": "    solver <mask>", "output": "();"}
+{"code_string": "    solver <mask>", "output": "();"}
+{"code_string": "    solver <mask>", "output": "();"}
+{"code_string": "    <mask> ();", "output": "solver"}
+{"code_string": "    <mask> ();", "output": "solver"}
+{"code_string": "    <mask> ();", "output": "solver"}
+{"code_string": "    for <mask> int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout << i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": "("}
+{"code_string": "    for ( int i = 1 ; i <= <mask> ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout << i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": "9"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout << i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn <mask> ;", "output": "0"}
+{"code_string": "    for ( <mask>nt i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout << i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout << i << 'x' << k << '=' << i * k << std :: endl ;\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout <mask> i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": "<<"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout <mask> i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": "<<"}
+{"code_string": "    for ( int i = 1 <mask> i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout << i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout <mask> i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": "<<"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd <mask> cout << i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": "::"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int k = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout << i << 'x' << k << '=' << i * k << std :: <mask> ;\n    \treturn 0 ;", "output": "endl"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n    \t\tfor ( int <mask> = 1 ; k <= 9 ; k++ )\n    \t\t\tstd :: cout << i << 'x' << k << '=' << i * k << std :: endl ;\n    \treturn 0 ;", "output": "k"}
+{"code_string": "    for <mask> int index = 1 ; index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "("}
+{"code_string": "    for ( int index = 1 ; index < 10 ; <mask> )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "++index"}
+{"code_string": "    for <mask> int index = 1 ; index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "("}
+{"code_string": "    for ( int index = 1 ; index < 1<mask> ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "0"}
+{"code_string": "    for ( int <mask> = 1 ; index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "index"}
+{"code_string": "    for ( <mask> index = 1 ; index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "int"}
+{"code_string": "    for ( int index = 1 ; index < 10 ; ++index <mask>\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": ")"}
+{"code_string": "    for ( int index = <mask> ; index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "1"}
+{"code_string": "    for ( <mask> index = 1 ; index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "int"}
+{"code_string": "    for ( <mask> index = 1 ; index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": "int"}
+{"code_string": "    for ( int index = 1 ; index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    for ( int index = 1 <mask> index < 10 ; ++index )\n    \t\ttabuada ( index );\n\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << <mask> << i * j << endl ;\n\n        return 0 ;", "output": "\"=\""}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": "<<"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 <mask> i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": ";"}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": "10"}
+{"code_string": "    for ( int i = 1 ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout <mask> i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": "<<"}
+{"code_string": "    for ( int i = <mask> ; i < 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": "1"}
+{"code_string": "    for ( int i = 1 ; i <mask> 10 ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": "<"}
+{"code_string": "    for ( int i = 1 ; i < <mask> ; i++ )\n            for ( int j = 1 ; j < 10 ; j++ )\n                cout << i << \"x\" << j << \"=\" << i * j << endl ;\n\n        return 0 ;", "output": "10"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << <mask> << i * j << endl ;", "output": "'='"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ <mask>\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": ")"}
+{"code_string": "    for ( int i <mask> 1 ; i <= 9 ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": "="}
+{"code_string": "    for ( int i = 1 ; i <= <mask> ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": "9"}
+{"code_string": "    for ( <mask>nt i = 1 ; i <= 9 ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": "i"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << <mask> << j << '=' << i * j << endl ;", "output": "'x'"}
+{"code_string": "    for ( <mask>nt i = 1 ; i <= 9 ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": "i"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout <mask> i << 'x' << j << '=' << i * j << endl ;", "output": "<<"}
+{"code_string": "    for ( <mask>nt i = 1 ; i <= 9 ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": "i"}
+{"code_string": "    for ( int i = 1 ; i <= 9 ; i++ )\n        for ( int <mask> = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": "j"}
+{"code_string": "    for ( int i <mask> 1 ; i <= 9 ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": "="}
+{"code_string": "    for ( int i = 1 ; i <= <mask> ; i++ )\n        for ( int j = 1 ; j <= 9 ; j++ )\n          cout << i << 'x' << j << '=' << i * j << endl ;", "output": "9"}
+{"code_string": "    <mask> ();\n\n    \treturn 0 ;", "output": "printQq"}
+{"code_string": "    printQq ()<mask>\n\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    printQq <mask>\n\n    \treturn 0 ;", "output": "();"}
+{"code_string": "    <mask> ();\n\n    \treturn 0 ;", "output": "printQq"}
+{"code_string": "    printQq <mask>\n\n    \treturn 0 ;", "output": "();"}
+{"code_string": "    printQq ();\n\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    printQq ()<mask>\n\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    printQq <mask>\n\n    \treturn 0 ;", "output": "();"}
+{"code_string": "    printQq ();\n\n    \t<mask> 0 ;", "output": "return"}
+{"code_string": "    <mask> ();\n\n    \treturn 0 ;", "output": "printQq"}
+{"code_string": "    printQq ()<mask>\n\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    printQq ()<mask>\n\n    \treturn 0 ;", "output": ";"}
+{"code_string": "    L ( i <mask> 9 )\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": ","}
+{"code_string": "    L ( i , 9 )\n    \t\tL ( <mask> , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": "j"}
+{"code_string": "    L ( <mask> , 9 )\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": "i"}
+{"code_string": "    L ( i , <mask> )\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": "9"}
+{"code_string": "    L ( i <mask> 9 )\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": ","}
+{"code_string": "    <mask> ( i , 9 )\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": "L"}
+{"code_string": "    L ( i <mask> 9 )\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": ","}
+{"code_string": "    L ( i , 9 )\n    \t\tL ( <mask> , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": "j"}
+{"code_string": "    L ( i , <mask> )\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": "9"}
+{"code_string": "    L ( i , 9 <mask>\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": ")"}
+{"code_string": "    L <mask> i , 9 )\n    \t\tL ( j , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": "("}
+{"code_string": "    L ( i , 9 )\n    \t\tL ( <mask> , 9 )\n    \t\t\tcout << i << \"x\" << j << \"=\" << i * j << endl ;\n    \treturn 0 ;", "output": "j"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + <mask> << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": "1"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << <mask> ;\n    \treturn 0 ;", "output": "endl"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": ")"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + <mask> << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": "1"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i <mask> 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": "+"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": ")"}
+{"code_string": "    REP ( i , 9 ) REP ( <mask> , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": "j"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + <mask> << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": "1"}
+{"code_string": "    REP ( i , 9 ) REP ( j , 9 ) cout << i + <mask> << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": "1"}
+{"code_string": "    REP ( i , <mask> ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": "9"}
+{"code_string": "    <mask> ( i , 9 ) REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": "REP"}
+{"code_string": "    REP ( i , 9 <mask> REP ( j , 9 ) cout << i + 1 << \"x\" << j + 1 << \"=\" << ( i + 1 ) * ( j + 1 ) << endl ;\n    \treturn 0 ;", "output": ")"}

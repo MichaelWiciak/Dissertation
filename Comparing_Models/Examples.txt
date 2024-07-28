@@ -1,0 +1,33 @@
+All failed:
+Code: def reverse_guard ( lst ) : rev = { '<' : <mask> , '>' : '=<' , '>=' : '<' , '=<' : '>' } return [ rev [ l ] if l in rev else l for l in lst ]
+Predicted: ''
+Expected: '>='
+
+- logic/semantic meaning error
+
+Code: def _build_dict_from_key_value ( keys_and_values ) : <mask> = { } for key_value in keys_and_values : if '=' not in key_value : raise GhostError ( 'Pair {0} is not of `key=value` format' . format ( key_value ) ) key , value = key_value . split ( '=' , 1 ) key_dict . update ( { str ( key ) : str ( value ) } ) return key_dict
+Predicted: dict
+Expected: key_dict
+
+- variable name is not what the user wrote but it is still valid code
+
+Code: def namespace ( <mask> ) : if ns_key not in __NAMESPACE__ : raise NamespaceError ( 'Unknown namespace: {:s}' . format ( ns_key ) ) sch = copy . deepcopy ( JAMS_SCHEMA [ 'definitions' ] [ 'SparseObservation' ] ) for key in [ 'value' , 'confidence' ] : try : sch [ 'properties' ] [ key ] = __NAMESPACE__ [ ns_key ] [ key ] except KeyError : pass return sch
+Predicted: self
+Expected: ns_key
+
+- lack of data, as it sometimes has object function and they have self but sometimes its separate function so no self.
+- with more data, it should work. 
+
+Code is better than AST for examples like:
+
+def add(x,y) /*Substract x from y */ return x <mask> y
+
+where comment is innacurate
+but code only workscd
+
+def add(x,y): /*Substract x from y */ return x <mask> y
+def add(x,y): /*x - y. We take x and y and substract them from each other as this is a minus section. So return x - y. def add(x,y): return x - y*/ return x <mask> y
+
+def add(x,y): /* def add(x,y): return x - y*/ return x <mask> y
+
+def add(x,y): return x <mask> y

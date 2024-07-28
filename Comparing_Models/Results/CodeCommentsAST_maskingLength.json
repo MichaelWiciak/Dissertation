@@ -1,0 +1,9 @@
+{
+  "model": "CodeCommentsAST",
+  "2": { "correct": 441, "total": 1001 },
+  "3": { "correct": 326, "total": 441 },
+  "4": { "correct": 191, "total": 326 },
+  "5": { "correct": 87, "total": 191 },
+  "6": { "correct": 4, "total": 87 },
+  "7": { "correct": 0, "total": 4 }
+}

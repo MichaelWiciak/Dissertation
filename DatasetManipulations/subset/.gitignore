@@ -1,0 +1,2 @@
+# Ignore all of *.jsonl since the jsonl dataset is too large for GitHub
+*.jsonl

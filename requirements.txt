@@ -1,0 +1,17 @@
+Venv setup:
+cd ..
+❯ python3 -m venv .venv
+
+source .venv/bin/activate
+
+pip install torch     
+pip install transformers      
+pip install ipython
+pip install tabulate
+pip install termcolor  
+pip install matplotlib
+pip install lora 
+pip install esprima
+pip install seaborn
+pip install scipy
+pip install scikit-learn

@@ -1,0 +1,5 @@
+def add(x,y): return x <mask> y
+def minus(x,y): return x <mask> y
+counter += <mask>
+increment <mask>= 1
+decrement <mask>= 1
